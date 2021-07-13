@@ -1,0 +1,39 @@
+.box{
+    margin-top: 80px;
+    border-radius: 5%;
+    border-style: solid;
+    border-color: blanchedalmond;
+    background-color: rgb(204, 204, 204);
+    width: 450px;
+    height: 80%;
+    position: relative;
+    left: 40%;
+}
+
+.nombre{
+    background-color: white;
+    position: absolute;
+    left: 25%;
+    margin-top: 30px;
+}
+
+.pais{
+    background-color: white;
+    position: absolute;
+    left:25%;
+    margin-top: 130px;
+}
+
+.observacion{
+    background-color: white;
+    position: absolute;
+    left: 25%;
+    margin-top: 230px;
+}
+
+button{
+    position: absolute;
+    left: 40%;
+    margin-top: 500px;
+}
+

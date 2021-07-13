@@ -1,0 +1,31 @@
+<div class= "box">
+
+        <div class="nombre">
+            <mat-form-field appearance="fill">
+            
+            <mat-label>Nombre Completo</mat-label>
+            <input matInput>
+            </mat-form-field>
+        </div>
+
+        <div class="pais">
+            <mat-form-field appearance="fill">
+                <mat-label>País</mat-label>
+                <mat-select>
+                  <mat-option value="one">First option</mat-option>
+                  <mat-option value="two">Second option</mat-option>
+                </mat-select>
+              </mat-form-field>
+        </div>
+
+        <div class="observacion">
+            <mat-form-field appearance="fill">
+                <mat-label>Observaciones</mat-label>
+                <textarea matInput></textarea>
+            </mat-form-field>
+        </div>
+
+        <p>
+            <button mat-raised-button [routerLink]="['/sentMessage']" routerLinkActive="router-link-active" >Basic</button>
+        </p>
+</div>
